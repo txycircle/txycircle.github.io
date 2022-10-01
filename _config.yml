@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "XinyuanTu's Whbsite"
+title                    : "XinyuanTu's Website"
 title_separator          : "-"
 name                     : &name "XinyuanTu"
 description              : &description "Hi,I'm XinyuanTu."
