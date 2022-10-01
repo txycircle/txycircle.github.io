@@ -17,19 +17,16 @@ Education
 
 Publications
 ======
-Reconstruction of High-Precision Semantic Map [PDF]() 
-**Accepted to SENSOR, 2020**
-**Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
+<p style="text-align:left;">Reconstruction of High-Precision Semantic Map [PDF]()  <span style="float:right;">**Accepted to SENSOR, 2020**</span></p>
 
+**Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
 
 Project
 ======
-Multi View human face reconstruction [Link]()
-Nanjing University, ViSG Lab
+<p style="text-align:left;">Multi View human face reconstruction [Link]()  <span style="float:right;">
+Nanjing University, ViSG Lab</span></p>
 
 Experience
 ======
 - <p style="text-align:left;">NetEase FuxiLab <span style="float:right;">2022.04~2022.06</span></p>
 - <p style="text-align:left;">Microsoft <span style="float:right;">2022.06~2022.09</span></p>
-
-
