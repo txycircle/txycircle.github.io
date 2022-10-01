@@ -15,16 +15,19 @@ Education
 - <p style="text-align:left;">Nanjing University,Bachelor Degree <span style="float:right;">2016.09~2020.06</span></p>
 - <p style="text-align:left;">Nanjing University,Master Degree <span style="float:right;">2020.09~2023.06</span></p>
 
-Publications
+Publication
 ======
-<p style="text-align:left;">Reconstruction of High-Precision Semantic Map [PDF]()  <span style="float:right;">Accepted to SENSOR, 2020</span></p>
+<p style="text-align:left;">Reconstruction of High-Precision Semantic Map [PDF]  <span style="float:right;">Accepted to SENSOR, 2020</span></p>
 
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
 
+[link]()
+
 Project
 ======
-<p style="text-align:left;">Multi View human face reconstruction [Link]()  <span style="float:right;">
+<p style="text-align:left;">Multi View human face reconstruction [Link]  <span style="float:right;">
 Nanjing University, ViSG Lab</span></p>
+[link]()
 
 Experience
 ======
