@@ -22,7 +22,7 @@ Reconstruction of High-Precision Semantic Map [PDF]()
 **Accepted to SENSOR, 2020**
 
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
-Site-wide configuration
+
 
 Project
 ======
