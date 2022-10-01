@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-- Hi,this is **Xinyuan**'s website. I am studying for my master degree in Nanjing University. My interests involve **deep learning,computer vision,computer graphics**  
-.
+- Hi,this is **Xinyuan**'s website. I am studying for my master degree in Nanjing University. My interests involve **deep learning,computer vision,computer graphics** .
+
 Education
 ======
 - Nanjing University    $~~~~~$   Bachelor Degree $~~~~~$ 2016.09~2020.06
