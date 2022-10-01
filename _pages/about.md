@@ -17,7 +17,7 @@ Education
 
 Publications
 ======
-<p style="text-align:left;">Reconstruction of High-Precision Semantic Map [PDF]()  <span style="float:right;">**Accepted to SENSOR, 2020**</span></p>
+<p style="text-align:left;">Reconstruction of High-Precision Semantic Map [PDF]()  <span style="float:right;">Accepted to SENSOR, 2020</span></p>
 
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
 
