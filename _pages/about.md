@@ -33,4 +33,4 @@ Nanjing University, ViSG Lab</span></p>
 Experience
 ======
 - <p style="text-align:left;">NetEase FuxiLab <span style="float:right;">2022.04~2022.06</span></p>
-- <p style="text-align:left;">Microsoft <span style="float:right;">2022.06~2022.09</span></p>
+
