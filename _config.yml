@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xinyuan Tu"
-  avatar           : "profile.png"
+  avatar           : "./images/1.jpg"
   bio              : "Hi, I'm Xinyuan.Welcome ^^."
   location         : "China"
   employer         :
