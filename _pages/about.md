@@ -21,13 +21,14 @@ Publication
 
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
 
-[link]()
+[Link]()
 
 Project
 ======
 <p style="text-align:left;">Multi View human face reconstruction [Link]  <span style="float:right;">
 Nanjing University, ViSG Lab</span></p>
-[link]()
+
+[Link]()
 
 Experience
 ======
