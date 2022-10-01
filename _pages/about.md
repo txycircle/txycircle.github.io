@@ -12,8 +12,8 @@ redirect_from:
 
 Education
 ======
-- <p style="text-align:left;">Nanjing University,Bachelor Degree<span style="float:right;">2016.09~2020.06</span></p>
-- <p style="text-align:left;">Nanjing University,Master Degree<span style="float:right;">2020.09~2023.06</span></p>
+- <p style="text-align:left;">Nanjing University,Bachelor Degree <span style="float:right;">2016.09~2020.06</span></p>
+- <p style="text-align:left;">Nanjing University,Master Degree <span style="float:right;">2020.09~2023.06</span></p>
 
 Publications
 ======
@@ -32,7 +32,7 @@ Nanjing University, ViSG Lab
 
 Experience
 ======
-- <p style="text-align:left;">NetEase FuxiLab<span style="text-align:right;">2022.04~2022.06</span></p>
-- <p style="text-align:left;">Microsoft<span style="text-align:right;">2022.06~2022.09</span></p>
+- <p style="text-align:left;">NetEase FuxiLab <span style="text-align:right;">2022.04~2022.06</span></p>
+- <p style="text-align:left;">Microsoft <span style="text-align:right;">2022.06~2022.09</span></p>
 
 
