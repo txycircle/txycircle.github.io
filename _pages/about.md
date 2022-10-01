@@ -17,7 +17,7 @@ Education
 
 Publication
 ======
-<p style="text-align:left;">Reconstruction of High-Precision Semantic Map [PDF]  <span style="float:right;">Accepted to SENSOR, 2020</span></p>
+<p style="text-align:left;">Reconstruction of High-Precision Semantic Map  <span style="float:right;">Accepted to SENSOR, 2020</span></p>
 
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
 
@@ -25,7 +25,7 @@ Publication
 
 Project
 ======
-<p style="text-align:left;">Multi View human face reconstruction [Link]  <span style="float:right;">
+<p style="text-align:left;">Multi View human face reconstruction  <span style="float:right;">
 Nanjing University, ViSG Lab</span></p>
 
 [Link]()
