@@ -18,16 +18,13 @@ Education
 Publications
 ======
 Reconstruction of High-Precision Semantic Map [PDF]() 
-
 **Accepted to SENSOR, 2020**
-
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
 
 
 Project
 ======
 Multi View human face reconstruction [Link]()
-
 Nanjing University, ViSG Lab
 
 Experience
