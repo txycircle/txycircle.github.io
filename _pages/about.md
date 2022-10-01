@@ -25,13 +25,13 @@ Reconstruction of High-Precision Semantic Map [PDF]()
 Site-wide configuration
 
 Project
-------
+======
 Multi View human face reconstruction [Link]()
 
 Nanjing University, ViSG Lab
 
 Experience
-------
+======
 - NetEase FuxiLab   $~~~~~~~~~~~~~~~~~$ 2022.04~2022.06
 - Microsoft         $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ 2022.06~2022.09
 
