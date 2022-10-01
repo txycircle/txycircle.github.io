@@ -12,8 +12,8 @@ redirect_from:
 
 Education
 ======
-- Nanjing University    $~~~~~$   Bachelor Degree $~~~~~$ 2016.09~2020.06
-- Nanjing University    $~~~~~$   Master Degree   $~~~~~$ 2020.09~2023.06
+- Nanjing University,Bachelor Degree <p align="right">2016.09~2020.06</p>
+- Nanjing University,Master Degree   <p align="right"> 2020.09~2023.06</p>
 
 Publications
 ======
@@ -32,7 +32,7 @@ Nanjing University, ViSG Lab
 
 Experience
 ======
-- NetEase FuxiLab   $~~~~~~~~~~~~~~~~~$ 2022.04~2022.06
-- Microsoft         $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ 2022.06~2022.09
+- NetEase FuxiLab   <p align="right"> 2022.04~2022.06</p>
+- Microsoft         <p align="right"> 2022.06~2022.09</p>
 
 
