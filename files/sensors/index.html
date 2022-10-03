@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Reconstruction of High-precision Semantic Map</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          TeX: {
+            equationNumbers: {
+              autoNumber: "AMS"
+            }
+          },
+          SVG: {
+            scale: 90
+          },
+          tex2jax: {
+            inlineMath: [ ['$','$'] ],
+            displayMath: [ ['$$','$$'] ],
+            processEscapes: true,
+          }
+        });
+    </script>
+    
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG">
+    </script>
+    <!-- <base href="/"> -->
+
+        <!--FACEBOOK-->
+    <!-- <meta property="og:image" content="https://people.eecs.berkeley.edu/~bmild/fourfeat/img/foxface.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="512">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://people.eecs.berkeley.edu/~bmild/fourfeat/"/>
+    <meta property="og:title" content="Fourier Feature Networks" />
+    <meta property="og:description" content="Project page for Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains." /> -->
+
+        <!--TWITTER-->
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fourier Feature Networks" />
+    <meta name="twitter:description" content="Project page for Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains." />
+    <meta name="twitter:image" content="https://people.eecs.berkeley.edu/~bmild/fourfeat/img/foxface.jpg" />
+ -->
+
+<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- <link rel="icon" type="image/png" href="img/seal_icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110862391-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110862391-1');
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                Reconstruction of High-precision Semantic Map </br>
+                <small>
+                    SENSORS 2020 (POSTER)
+                </small>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://txycircle.github.io/">
+                          Xinyuan Tu
+                        </a>
+                        
+                        </br>Nanjing University
+                    </li>
+                    <li>
+                        <a href="https://zhangjian94cn.github.io/">
+                            Jian Zhang
+                        </a>
+                        </br>Nanjing University
+                    </li>
+                    <li>
+                        <!-- <a href="http://people.eecs.berkeley.edu/~bmild/">
+        Ben Mildenhall*
+    </a> -->
+                        Runhao Luo
+                        </br>Nanjing University
+                    </li>
+
+                    <li>
+                        <!--<a href="https://hufu6371.github.io/huanfu/">-->
+                            Kai Wang
+                        </a>
+                        
+                        </br>Nanjing University
+                    </li>
+
+                    <li>
+                        <!--a href="http://igm.univ-mlv.fr/~cwang/index.php">-->
+                        Qingji Zeng
+                        </a>
+
+                        </br>Nanjing University
+                    </li>
+                    
+                    <br>
+                    
+                    <li>
+                        <!--a href="http://igm.univ-mlv.fr/~cwang/index.php">-->
+                            Yu Zhou#
+                        </!--a>
+
+                        </br>Nanjing University
+                    </li>
+                    
+                    <li>
+                        <!-- <a href="https://scholar.google.com/citations?user=lvA86MYAAAAJ&hl=en">
+      Utkarsh Singhal
+    </a> -->
+                        Yao Yu
+                        </br>Nanjing University
+                    </li>
+
+                    <li>
+                        <!-- <a href="http://cseweb.ucsd.edu/~ravir/">
+      Ravi Ramamoorthi
+    </a> -->
+                        Sidan Du
+                        </br>Nanjing University
+                    </li>
+
+                </ul>
+                
+                #denotes corresponding author
+            </div>
+        </div>
+
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="./assets/sensors-947315-forproof.pdf">
+                            <!--<image src="img/adasrg_paper_img.jpeg" height="60px">-->
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+
+                        <!-- <li>
+                            <a href="https://github.com/zhangjian94cn/HrSRG">
+                            <image src="img/github.png" height="60px">
+                                <h4><strong>Code</strong></h4>
+                            </a>
+                        </li> -->
+
+                        <!--<li>
+                            <a href="https://pan.baidu.com/s/15ZKE5cpT4X02-Dni9_-W_g?pwd=38jm">
+                            <image src="img/dataset.png" height="60px">
+                                <h4><strong>Dataset</strong></h4>
+                            </a>
+                        </li>-->
+
+
+                    </ul>
+                </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <image src="img/pipeline.png" class="img-responsive" alt="overview"><br>
+                                                                                            <p class="text-justify">
+                                                                                                We present a real-time Truncated Signed Distance Field (TSDF)-based three-dimensional
+                                                                                                (3D) semantic reconstruction for LiDAR point cloud, which achieves incremental surface
+                                                                                                reconstruction and highly accurate semantic segmentation. The high-precise 3D semantic
+                                                                                                reconstruction in real time on LiDAR data is important but challenging. Lighting Detection and
+                                                                                                Ranging (LiDAR) data with high accuracy is massive for 3D reconstruction. We so propose a
+                                                                                                line-of-sight algorithm to update implicit surface incrementally. Meanwhile, in order to use more
+                                                                                                semantic information effectively, an online attention-based spatial and temporal feature fusion
+                                                                                                method is proposed, which is well integrated into the reconstruction system. We implement parallel
+                                                                                                computation in the reconstruction and semantic fusion process, which achieves real-time performance.
+                                                                                                We demonstrate our approach on the CARLA dataset, Apollo dataset, and our dataset. When
+                                                                                                compared with the state-of-art mapping methods, our method has a great advantage in terms of both
+                                                                                                quality and speed, which meets the needs of robotic mapping and navigation.
+                                                                                            </p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Overview Result
+                </h3>
+                <image src="img/img1.png" class="img-responsive" alt="overview"><br>
+</div>
+        </div>
+
+        
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Spatial-Temporal Feature Fusion
+                </h3>
+                <image src="img/Campare.png" class="img-responsive" alt="overview"><br>
+                                                                                   <p class="text-justify">
+                                                                                       The incremental reconstruction
+                                                                                       result provides voxels’ normal that is embedded with position of the sensor as the input of our
+                                                                                       Observation Adaptive Network (OAN) to provide the observation effectiveness information. Secondly,
+                                                                                       through the 2D semantic segmentation network, image feature is extracted and LiDAR point cloud is
+                                                                                       projected to obtain its corresponding image feature. The image feature of current voxel is also the input
+                                                                                       of our OAN, and it is used together with voxel’s normal and position of the sensor to update current
+                                                                                       voxel’s state. Finally, we use Attention Based Spatial Fusion Network (ABSFN) to fuse voxels’ state
+                                                                                       within a limited range of adjacent space to obtain current voxel’s semantic label.
+                                                                                   </p>
+                                                                                   <p class="text-justify">
+                                                                                       <b>OAN.</b> We assume there are two main factors related to the effectiveness of observations. Firstly, the location
+                                                                                       of observation $L^k
+                                                                                       _i$ in the local coordinate system centered on current voxel. Secondly, the normal of
+                                                                                       current voxel $N^k
+                                                                                       _i$ . The combination of normal and position can represent the validity of the observation
+                                                                                       from a geometric perspective. When the observation degree is close to 90 degrees from normal, the
+                                                                                       observation is not reliable. When the observation degree is close to 0 degree, the observation is reliable.
+                                                                                       Consequently, we utilize GRU to achieve the observation state $E^k
+                                                                                       _i$ , which uses voxel’s normal and
+                                                                                       sensor’s local position as input.
+                                                                                   </p>
+
+                                                                                   <p class="text-justify">
+                                                                                       <b>ABSFN.</b> In order to making the most use of spatial feature. We use the
+                                                                                       self-attention mechanism whose input are the hidden state stored in each voxel $F^k_i$ and offset of neighborhood voxels to the current voxel $O^k
+                                                                                       _{i,j}$, to explicitly measure the correlation between the current voxel and its adjacent voxels.
+                                                                             
+                                                                                   </p>
+            </div>
+        </div>
+            
+
+
+        <!-- <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <textarea id="bibtex" class="form-control" readonly>
+@article{tancik2020fourfeat,
+    title={Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains},
+    author={Matthew Tancik and Pratul P. Srinivasan and Ben Mildenhall and Sara Fridovich-Keil and Nithin Raghavan and Utkarsh Singhal and Ravi Ramamoorthi and Jonathan T. Barron and Ren Ng},
+    journal={NeurIPS},
+    year={2020}
+}</textarea>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p class="text-justify">
+                    The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a>.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
