@@ -20,7 +20,7 @@ Publication
 <p style="text-align:left;">Reconstruction of High-Precision Semantic Map  <span style="float:right;">Accepted to SENSOR, 2020</span></p>
 
 **Xinyuan Tu**, Jian Zhang, Runhao Luo, Kai Wang, Qingji Zeng, Yu Zhou *, Yao Yu and Sidan Du
-[<a href="https://github.com/txycircle/txycircle.github.io/blob/master/files/sensors/index.html">project</a>]
+[<a href="https://txycircle.github.io/files/sensors/index.html/">project</a>]
 
 Project
 ======
