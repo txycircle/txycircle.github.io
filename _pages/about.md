@@ -32,5 +32,5 @@ Nanjing University, ViSG Lab</span></p>
 
 Experience
 ======
-- <p style="text-align:left;">NetEase FuxiLab <span style="float:right;">2022.04~2022.06</span></p>
+- <p style="text-align:left;">NetEase FuxiLab(Internship) <span style="float:right;">2022.04~2022.06</span></p>
 
