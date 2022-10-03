@@ -25,9 +25,7 @@ Publication
 Project
 ======
 <p style="text-align:left;">Multi View human face reconstruction  <span style="float:right;">
-Nanjing University, ViSG Lab</span></p>
-
-[Link]()
+Nanjing University, ViSG Lab</span></p>[project]()
 
 Experience
 ======
