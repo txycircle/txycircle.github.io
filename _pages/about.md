@@ -25,7 +25,8 @@ Publication
 Project
 ======
 <p style="text-align:left;">Multi View human face reconstruction  <span style="float:right;">
-Nanjing University, ViSG Lab</span></p>[project]()
+Nanjing University, ViSG Lab</span></p>
+[<a href="https://txycircle.github.io/files/projects/index_sensors.html">project</a>]
 
 Experience
 ======
