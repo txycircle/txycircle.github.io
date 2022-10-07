@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Multi view human face reconstruction</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          TeX: {
+            equationNumbers: {
+              autoNumber: "AMS"
+            }
+          },
+          SVG: {
+            scale: 90
+          },
+          tex2jax: {
+            inlineMath: [ ['$','$'] ],
+            displayMath: [ ['$$','$$'] ],
+            processEscapes: true,
+          }
+        });
+    </script>
+    
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG">
+    </script>
+    <!-- <base href="/"> -->
+
+        <!--FACEBOOK-->
+    <!-- <meta property="og:image" content="https://people.eecs.berkeley.edu/~bmild/fourfeat/img/foxface.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="512">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://people.eecs.berkeley.edu/~bmild/fourfeat/"/>
+    <meta property="og:title" content="Fourier Feature Networks" />
+    <meta property="og:description" content="Project page for Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains." /> -->
+
+        <!--TWITTER-->
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fourier Feature Networks" />
+    <meta name="twitter:description" content="Project page for Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains." />
+    <meta name="twitter:image" content="https://people.eecs.berkeley.edu/~bmild/fourfeat/img/foxface.jpg" />
+ -->
+
+<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- <link rel="icon" type="image/png" href="img/seal_icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110862391-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110862391-1');
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                Multi-view human face reconstruction </br>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://txycircle.github.io/">
+                          Xinyuan Tu
+                        </a>
+                        
+                        </br>Nanjing University
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+       
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Overview
+                </h3>
+                <image src="img/face_overview.png" class="img-responsive" alt="overview"><br>
+                                                                                  <p class="text-justify">
+                                                                                      We propose a method to reconstructe high precision human face based on multi-view 2D images without camera external parameters, which have a great performance on extream experssions and wrinkles.
+                                                                                      Considering the limits of face mesh(3DMM), we do not use any face priority mesh, and follow the idea of SFM to design our pipeline. Although in some extream lighting conditions, our 
+                                                                                      method has a great performance as well.
+                                                                                  </p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Vision Result
+                </h3>
+                <image src="img/face.gif" class="img-responsive" alt="overview"><br>
+</div>
+        </div>
+
+        
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    
+                </h3>
+                <image src="img/face_alignment.png" class="img-responsive" alt="overview"><br>
+                                                                                          <p class="text-justify">
+                                                                                              In order to have a better result, we estimate camera external parameters and geometry simultaneously, which achieves a great face alignment result campared with initial value.
+                                                                                          </p>
+                                                                                   <p class="text-justify">
+                                                                                       
+                                                                                   </p>
+
+                                                                                   <p class="text-justify">
+                                                                                       
+                                                                                   </p>
+            </div>
+        </div>
+            
+
+
+        <!-- <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <textarea id="bibtex" class="form-control" readonly>
+@article{tancik2020fourfeat,
+    title={Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains},
+    author={Matthew Tancik and Pratul P. Srinivasan and Ben Mildenhall and Sara Fridovich-Keil and Nithin Raghavan and Utkarsh Singhal and Ravi Ramamoorthi and Jonathan T. Barron and Ren Ng},
+    journal={NeurIPS},
+    year={2020}
+}</textarea>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p class="text-justify">
+                    Thanks to FaceScape team for providing us with the <a href="https://arxiv.org/pdf/2003.13989.pdf/">dataset  </a>.
+                </p>
+                <p class="text-justify">
+                    The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a>.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
